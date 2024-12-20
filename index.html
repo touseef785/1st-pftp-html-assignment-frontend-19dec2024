@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first assignment</title>
+  </head>
+  <body>
+    <h1>Student Information Dashboard</h1>
+    <p>
+      This page display a list of student enrolled in different courses and
+      allows you to register a new student
+    </p>
+    <h2>Student Activites</h2>
+    <ul>
+        <li>Attent classes</li>
+        <li>Complete assignment</li>
+        <li>Participate in group projects</li>
+        <li>Take exame</li>
+    </ul>
+    <h2>Up Coming Events</h2>
+       <ol>
+        <li>Final Exame - DEC 20,2024</li>
+        <li>Projects Submission Deadlline - DEC 25,2024</li>
+        <li>Winter Break Start - DEC 26,2024</li>
+        </ol>
+    <h1>Student Registration</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <br />
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required />
+        <br />
+        <br />
+                <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Select Course</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Science">Science</option>
+            <option value="English">English</option> 
+        </select>
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <br />
+        <input type="submit" value="Register" />
+        
+    </form>
+    <h2>Student List</h2>
+    <table  border="1">
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Courses</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>johndoe</td>
+            <td>Mathematics</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>janesmith</td>
+            <td>Science</td>
+            <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Emily janeson</td>
+            <td>Literature</td>
+            <td>emilyjohnson@example.com</td>
+        </tr>
+        
+    </table>
+    <footer>
+        <p>Student Information System - 2024</p>
+    </footer>
+  </body>
+</html>
